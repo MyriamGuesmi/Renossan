@@ -1,0 +1,200 @@
+:root {
+    --primary: #F77D0A;
+    --secondary: #2B2E4A;
+    --light: #F4F5F8;
+    --dark: #1C1E32;
+}
+
+h1,
+h2,
+.font-weight-bold {
+    font-weight: 700 !important;
+    color: darkblue;
+}
+
+h3,
+h4,
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+    justify-content: center;
+}
+
+h5,
+h6,
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
+.btn-square {
+    width: 36px;
+    height: 36px;
+}
+
+.btn-sm-square {
+    width: 28px;
+    height: 28px;
+}
+
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+
+.nav-bar::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background: var(--dark);
+}
+
+.nav-bar::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 30px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--light);
+    outline: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: darkblue;
+}
+
+.navbar-brand {
+
+    margin-left: 1%;
+    color: darkblue;
+}
+
+.text-uppercase 
+{
+    color: darkblue;
+}
+
+
+.img-fluid
+{
+    width: 90%;
+    border-radius: 5px;
+}
+.display-4
+{
+    text-align: center;
+
+}
+
+.article_align{
+    text-align: center;
+
+}
+
+
+.page-header {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 90px;
+    background-image: url(images/mustang.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.layer {
+    background-color: rgba(103, 103, 103, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.layer-image{
+        background-color:yellowgreen;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+    .page-header {
+        height: 300px;
+    }
+}
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+
+    .grid-container{
+        display: grid;
+        /* grid-column: 2; */
+        text-align: center;
+        grid-template-columns: repeat(3, 2fr);
+    }
+
+    .grid-item{
+        /* display: grid; */
+        /* background: #F4F5F8; */
+        /* width: 20%; */
+        /* grid-row: 1/2; */
+        /* width: 25%; */
+    }
+
+
+    .footer_align{
+        text-align: center;
+        font-family: 'Oswald',sans-serif;
+        /* background-color: aqua; */
+    }
+    
+    .footer_title{
+       color: white; 
+       font-size: 25px; 
+       font-weight: bold;
+       text-decoration: none;
+    } 
+
+
+
+h4.text-uppercase.m-0 {
+    margin-left:2em !important;
+}
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    width: 100% !important;
+}
+    
